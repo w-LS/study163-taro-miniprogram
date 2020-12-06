@@ -1,0 +1,18 @@
+export const COLORS = {
+  SECONDARY: '#FCBCC5',
+  PRIMARY: '#FF4C4C',
+  DARK: '#302F3D',
+  MEDIUM: '#525163',
+  LIGHT: '#9F9FAF',
+  EX_LIGHT: '#C9CBD6',
+  EX_LIGHT_PRO: '#f4f4f7',
+  WHITE: '#FFFFFF',
+
+  VIDEO_TAG_YELLOW: '#FFB073',
+  SHARE: '#FFB073',
+  LIKE: '#FF6761',
+  UNLIKE: '#FFD4DA',
+  COMMENT: '#85D9AF',
+
+  GREEN: '#26bd71'
+}

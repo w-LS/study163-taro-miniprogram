@@ -1,0 +1,74 @@
+@import '~@/constants/style/index.less';
+
+
+.post-card {
+  padding: @space * 3 0;
+  border-bottom: 1px solid @color-ex-light-pro;
+}
+.post-card-hover {
+  background: @color-ex-light-pro;
+}
+
+.card-header,
+.card-footer {
+  margin: 0 @space * 5;
+}
+
+
+.card-body {
+  box-sizing: border-box;
+  margin-top: @space * 3;
+  margin-bottom: @space * 3;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.time {
+  font-size: @font-size-h3;
+}
+
+.title {
+  font-size: @font-size-sub-title;
+  font-weight: bold;
+}
+
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  line-height: 40px;
+
+  .avatar {
+    height: 40px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .avatar-image {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .name {
+    margin-right: 16px;
+    font-size: @font-size-normal;
+    color: @color-light;
+  }
+}

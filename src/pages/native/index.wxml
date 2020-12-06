@@ -1,0 +1,2 @@
+<view> {{ text }} </view>
+<view> 这是原生小程序页面哦123 </view>

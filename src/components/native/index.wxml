@@ -1,0 +1,4 @@
+<view>Hello {{name}}</view>
+<view> {{text}} </view>
+<button bindtap="handleTap">点一下</button>
+<view> 点击了 {{clickCount}} 次 </view>
